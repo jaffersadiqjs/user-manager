@@ -1,0 +1,23 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "john",
+      "password": "pbkdf2_sha256$600000$examplehash",
+      "email": "john@example.com",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false
+    }
+  },
+  {
+    "model": "accounts.profile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "bio": "Hello, I am John!",
+      "avatar": ""
+    }
+  }
+]
